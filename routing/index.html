@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <title>Routing Example</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/gumby/2.6.0/css/gumby.css" />
+  <link rel="stylesheet" type="text/css" href="./css/app.css" />
+  <base href="">
+<body>
+  <inbox-app>
+    Loading...
+  </inbox-app>
+
+    <script type="text/javascript" src="./libs/system-csp-production.js"></script>
+    <script>
+        System.config({defaultJSExtensions: true});
+    </script>   
+    <script type="text/javascript" src="./libs/angular2.dev.js"></script>
+    <script type="text/javascript" src="./libs/router.dev.js"></script>
+    <script>
+    	System.import("index").then(function(app){
+    		app.main();
+    	}).catch(err=>console.err(err));
+    </script>
+</body>
+</html>

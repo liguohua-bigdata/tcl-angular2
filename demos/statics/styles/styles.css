@@ -1,0 +1,15 @@
+div.ez-greeting {
+    font-family: Courier;
+    background: #ede7f6;
+    box-shadow: 0 2px 5px 0;
+}
+
+h1 {
+    background: #4dba6c;
+    color: #fff;
+    text-align: center;
+}
+
+div.content {
+    padding: 10px;
+}

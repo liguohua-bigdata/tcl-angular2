@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>hello,angular2</title>
+    <script type="text/javascript" src="./statics/libs/system-csp-production.js"></script>
+    <script>
+        System.config({defaultJSExtensions: true});
+    </script>   
+    <script type="text/javascript" src="./statics/libs/angular2.dev.js"></script>        
+</head>
+<body>
+	<!--组件渲染锚点-->
+	<my-app></my-app>
+    
+    <script>
+        System.import('app/hello-annotations').catch(console.log.bind(console));
+    </script>
+
+</body>
+</html>

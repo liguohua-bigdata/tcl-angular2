@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>todo</title>
+    <script type="text/javascript" src="./statics/libs/system-csp-production.js"></script>
+    <script>
+        System.config({defaultJSExtensions: true});
+    </script>   
+    <script type="text/javascript" src="./statics/libs/angular2.dev.js"></script>
+</head>
+<body>
+	<todo-list></todo-list>
+	<script type="text/javascript">
+		System.import("app/todo").catch(err => console.error(err))
+	</script>
+</body>
+</html>

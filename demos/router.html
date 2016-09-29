@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>RouteConfig</title>
+    <script type="text/javascript" src="./statics/libs/system-csp-production.js"></script>
+    <script>
+        System.config({defaultJSExtensions: true});
+    </script>   
+    <script type="text/javascript" src="./statics/libs/angular2.dev.js"></script>
+    <script type="text/javascript" src="./statics/libs/router.dev.js"></script>
+    <style>
+        h1{padding:10px;border-radius:5px;color:#fff}
+        my-video h1{background:#f00;}
+        my-music h1{background:#0f0;}
+    </style>
+</head>
+<body>
+	<my-app></my-app>
+    <script >
+    	System.import("app/router");
+    </script>
+</body>
+</html>

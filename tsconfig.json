@@ -1,0 +1,18 @@
+{
+    "version": "1.6.0",
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "system",
+        "target": "ES5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true ,     
+        "sourceMap": true,
+        "outDir": "./"
+    },
+    
+    "exclude": [
+        "routing",
+        "demos/app/tools",
+        "demos/statics/libs"
+    ]
+}

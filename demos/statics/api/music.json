@@ -1,0 +1,62 @@
+[
+	{
+		"name":"The Beatles",
+		"albums":[
+			{
+				"name" : "Please Please Me",
+				"year" : 1963,
+				"cover" : "./statics/images/beatles-please-please-me.jpg"
+			},
+			{
+				"name" : "With the Beatles",
+				"year" : 1963,
+				"cover" : "./statics/images/beatles-with-the-beatles.jpg"
+			},
+			{
+				"name" : "A Hard Day's Night",
+				"year" : 1964,
+				"cover" : "./statics/images/beatles-a-hard-days-night.jpg"
+			},
+			{
+				"name" : "Beatles for Sale",
+				"year" : 1964,
+				"cover" : "./statics/images/beatles-beatles-for-sale.jpg"
+			},
+			{
+				"name" : "Help!",
+				"year" : 1965,
+				"cover" : "./statics/images/beatles-help.jpg"
+			},
+			{
+				"name" : "Rubber Soul",
+				"year" : 1965,
+				"cover" : "./statics/images/beatles-rubber-soul.jpg"
+			},
+			{
+				"name" : "Revolver",
+				"year" : 1966,
+				"cover" : "./statics/images/beatles-revolver.jpg"
+			},
+			{
+				"name" : "Sgt. Pepper's Lonely Hearts Club Band",
+				"year" : 1967,
+				"cover" : "./statics/images/beatles-sgt-peppers-lonely-hearts-club-band.jpg"
+			},
+			{
+				"name" : "The Beatles",
+				"year" : 1968,
+				"cover" : "./statics/images/beatles-the-beatles.jpg"
+			},
+			{
+				"name" : "Yellow Submarine",
+				"year" : 1969,
+				"cover" : "./statics/images/beatles-yellow-submarine.jpg"
+			},
+			{
+				"name" : "Abbey Road",
+				"year" : 1970,
+				"cover" : "./statics/images/beatles-abbey-road.jpg"
+			}
+		]
+	}
+]
